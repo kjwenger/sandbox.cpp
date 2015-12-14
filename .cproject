@@ -37,10 +37,27 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="model|model/ontology" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/include/cpp/com/u14n/sandbox/cpp"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/include/cpp/com/u14n/sandbox/cpp/model/ontology"/>
-						<entry excluding="model|model/ontology" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/main/cpp/com/u14n/sandbox/cpp"/>
+						<entry excluding="classis|familia|genus|ordo|phylum|regnum|species" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/species"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/main/cpp/com/u14n/sandbox/cpp/model/ontology"/>
+						<entry excluding="classis|familia|genus|ordo|phylum|regnum|species" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/species"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/test/cpp/com/u14n/sandbox/cpp/model/ontology"/>
+						<entry excluding="species" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/species"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -65,4 +82,5 @@
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>
