@@ -3,6 +3,7 @@
  * @date 2015-12-14
  */
 
+#include "com/u14n/sandbox/cpp/Constants.hpp"
 #include "com/u14n/sandbox/cpp/model/ontology/Topic.hpp"
 
 #include <gtest/gtest.h>
@@ -18,8 +19,12 @@ class TopicTest : public ::testing::Test {
 public:
 };
 
-TEST_F(TopicTest, shouldCreateTopc) {
+TEST_F(TopicTest, shouldCreateTopic) {
     Topic topic;
+    EXPECT_EQ(Constants::STRING_EMPTY(), topic.getName());
+    std::string newName("Topic");
+    topic.setName(newName);
+    EXPECT_EQ(newName, topic.getName());
 }
 
 } // namespace ontology

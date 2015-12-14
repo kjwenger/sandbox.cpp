@@ -7,9 +7,11 @@ include_directories(
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 
 set(HEADER_FILES
+        src/main/cpp/com/u14n/sandbox/cpp/Constants.hpp
         src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp)
 
 set(SOURCE_FILES
+        src/main/cpp/com/u14n/sandbox/cpp/Constants.cpp
         src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.cpp)
 
 set(TEST_FILES
