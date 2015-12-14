@@ -2,5 +2,5 @@
 @CHDIR build
 @CMAKE -G "MinGW Makefiles" ..
 @MAKE
-@sandbox_exe
+@tests
 @CHDIR ..
