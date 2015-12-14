@@ -2,6 +2,8 @@
   <dictionary name="Klaus Wenger">
     <words>
       <w>chdir</w>
+      <w>dgtest</w>
+      <w>libgtest</w>
       <w>makefiles</w>
       <w>mkdir</w>
       <w>wenger</w>
