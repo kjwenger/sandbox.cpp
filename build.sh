@@ -3,4 +3,5 @@
 mkdir -p build
 chdir build
 cmake -G "MinGW Makefiles" ..
+make
 chdir ..
