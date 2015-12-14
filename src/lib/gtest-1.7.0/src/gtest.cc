@@ -477,8 +477,8 @@ bool UnitTestOptions::MatchesFilter(
 
 // Returns true iff the user-specified filter matches the test case
 // name and the test name.
-bool UnitTestOptions::FilterMatchesTest(const std::string &test_case_name,
-                                        const std::string &test_name) {
+bool UnitTestOptions::FilterMatchesTest(const std::string& test_case_name,
+                                        const std::string& test_name) {
   const std::string& full_name = test_case_name + "." + test_name.c_str();
 
   // Split --gtest_filter at '-', if there is one, to separate into
@@ -4466,7 +4466,7 @@ int UnitTestImpl::FilterTests(ReactionToSharding shard_tests) {
   int num_selected_tests = 0;
   for (size_t i = 0; i < test_cases_.size(); i++) {
     TestCase* const test_case = test_cases_[i];
-    const std::string &test_case_name = test_case->name();
+    const std::string& test_case_name = test_case->name();
     test_case->set_should_run(false);
 
     for (size_t j = 0; j < test_case->test_info_list().size(); j++) {

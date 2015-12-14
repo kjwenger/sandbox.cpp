@@ -18,7 +18,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96963531-ba0c-484b-a457-88710b755f61" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/Constants.cpp" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/Constants.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Phylum.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia/Canidae.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus/Canis.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo/Carnivora.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum/Chordata.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Phylum.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia/Canidae.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus/Canis.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo/Carnivora.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum/Chordata.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/SpeciesTest.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/LupusTest.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Klaus_Wenger.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Klaus_Wenger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sandbox.cpp.iml" afterPath="$PROJECT_DIR$/.idea/sandbox.cpp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/gtest-1.7.0/fused-src/gtest/gtest-all.cc" afterPath="$PROJECT_DIR$/src/lib/gtest-1.7.0/fused-src/gtest/gtest-all.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/gtest-1.7.0/src/gtest-internal-inl.h" afterPath="$PROJECT_DIR$/src/lib/gtest-1.7.0/src/gtest-internal-inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/gtest-1.7.0/src/gtest.cc" afterPath="$PROJECT_DIR$/src/lib/gtest-1.7.0/src/gtest.cc" />
     </list>
     <ignored path="sandbox.cpp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +74,20 @@
     <favorites_list name="sandbox.cpp" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LupusTest.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/LupusTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7322835">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+              <folding>
+                <element signature="e#53#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +106,38 @@
         <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.cpp" />
         <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp" />
         <option value="$PROJECT_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/ontology/TopicTest.cpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.hpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.hpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.hpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.hpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.hpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus/Canis.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo/Carnivora.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.cpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Phylum.hpp" />
+        <option value="$PROJECT_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/LupusTest.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Phylum.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.cpp" />
+        <option value="$PROJECT_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/SpeciesTest.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia/Canidae.cpp" />
+        <option value="$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum/Chordata.cpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.hpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.hpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum/Chordata.hpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo/Carnivora.hpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus/Canis.hpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia/Canidae.hpp" />
+        <option value="$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.hpp" />
+        <option value="$PROJECT_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/LupusTest.cpp" />
       </list>
     </option>
   </component>
@@ -135,188 +215,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox.cpp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox.cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox.cpp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox.cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u14n" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox.cpp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox.cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u14n" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ontology" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox.cpp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox.cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u14n" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox.cpp" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox.cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u14n" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cpp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ontology" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -328,8 +226,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\com.u14n\sandbox\sandbox.cpp\src\main\cpp\com\u14n\sandbox\cpp" />
-      <recent name="C:\com.u14n\sandbox\sandbox.cpp\lib\test" />
+      <recent name="C:\com.u14n\sandbox\sandbox.cpp\src\test\cpp\com\u14n\sandbox\cpp\model\taxonomy\species" />
+      <recent name="C:\com.u14n\sandbox\sandbox.cpp\src\test\cpp\com\u14n\sandbox\cpp\model\taxonomy" />
+      <recent name="C:\com.u14n\sandbox\sandbox.cpp\src\main\cpp\com\u14n\sandbox\cpp\model\taxonomy" />
+      <recent name="C:\com.u14n\sandbox\sandbox.cpp\src\main\cpp\com\u14n\sandbox\cpp\model\taxonomy\species" />
+      <recent name="C:\com.u14n\sandbox\sandbox.cpp\src\main\cpp\com\u14n\sandbox\cpp\model\taxonomy\regnum" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\com.u14n\sandbox\sandbox.cpp\src\include\cpp\com\u14n\sandbox\cpp" />
@@ -455,15 +356,15 @@
     <frame x="0" y="0" width="960" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31561822" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19305857" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3583878" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11232279" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3576881" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11232279" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -493,130 +394,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="added cpp nature in eclipse&#10;insulated includes" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.hpp</url>
+          <line>7</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -729,38 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1912261">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/Constants.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3824522">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22947131">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03824522">
@@ -774,16 +531,304 @@
         <state vertical-scroll-proportion="0.26771653">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
-            <element signature="e#53#98#0" expanded="true" />
+            <element signature="e#53#98#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/Constants.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/Constants.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.649123">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7719297">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.649123">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Phylum.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55455565">
+          <caret line="29" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#67#112#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Phylum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30596176">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/SpeciesTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3824522">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia/Canidae.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09561305">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus/Canis.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55455565">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo/Carnivora.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55455565">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum/Chordata.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.649123">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="73" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#67#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum/Chordata.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="e#67#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo/Carnivora.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding>
+            <element signature="e#67#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42069742">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="e#67#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia/Canidae.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42069742">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding>
+            <element signature="e#67#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus/Canis.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding>
+            <element signature="e#67#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/LupusTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7322835">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding>
+            <element signature="e#53#98#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
