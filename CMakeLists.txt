@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.3)
+cmake_minimum_required(VERSION 2.6)
 project(sandbox_cpp)
 include_directories(
         src/main/cpp
@@ -21,10 +21,12 @@ add_library(sandbox SHARED
         ${HEADER_FILES}
         ${SOURCE_FILES})
 
+find_package(Threads)
 add_executable(tests
         ${HEADER_FILES}
         ${SOURCE_FILES}
         ${TEST_FILES})
 target_link_libraries(tests
         ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/libgtest_main.a
-        ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/libgtest.a)
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/libgtest.a
+        ${CMAKE_THREAD_LIBS_INIT})

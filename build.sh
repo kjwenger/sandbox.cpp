@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 mkdir -p build
-chdir build
-cmake -G "MinGW Makefiles" ..
+cd build
+cmake ..
 make
-chdir ..
+./tests
+cd ..
