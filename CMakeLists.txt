@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.3)
 project(sandbox_cpp)
 include_directories(
-        src/main/cpp
+        src/include/cpp
         src/lib/gtest-1.7.0/include)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 
 set(HEADER_FILES
-        src/main/cpp/com/u14n/sandbox/cpp/Constants.hpp
-        src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp)
+        src/include/cpp/com/u14n/sandbox/cpp/Constants.hpp
+        src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp)
 
 set(SOURCE_FILES
         src/main/cpp/com/u14n/sandbox/cpp/Constants.cpp
