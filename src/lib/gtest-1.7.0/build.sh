@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
 mkdir -p build
-chdir build
-cmake -Dgtest_build_samples=ON -G "MinGW Makefiles" ..
+cd build
+cmake -Dgtest_build_samples=ON ..
 make
-chdir ..
+mkdir -p ../../../../lib/test
+cp libgtest.a ../../../../lib/test
+cp libgtest_main.a ../../../../lib/test
+cd ..
