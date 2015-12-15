@@ -4,6 +4,8 @@
  */
 
 #include "com/u14n/sandbox/cpp/model/taxonomy/Phylum.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Regnum.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp"
 
 namespace com {
 namespace u14n {
@@ -13,21 +15,19 @@ namespace model {
 namespace taxonomy {
 
 Phylum::Phylum(Regnum& newRegnum, std::string newName)
-        : regnum(newRegnum)
-        , name(newName) {
-
+        : Branch<Regnum, Classis>(newRegnum, newName) {
+    getFork().addProng(*this);
+}
+Phylum::~Phylum() {
+    getFork().removeProng(*this);
 }
 
-const std::string& Phylum::getName() const {
-    return name;
+Regnum& Phylum::getRegnum() {
+    return getFork();
 }
 
-void Phylum::setName(const std::string& newName) {
-    name.assign(newName);
-}
-
-const Regnum& Phylum::getRegnum() const {
-    return regnum;
+const std::vector<std::reference_wrapper<Classis> >& Phylum::getClasses() const {
+    getProngs();
 }
 
 } // namespace taxonomy

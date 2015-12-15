@@ -4,6 +4,9 @@
  */
 
 #include "com/u14n/sandbox/cpp/model/taxonomy/Regnum.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Phylum.hpp"
+
+#include <algorithm>
 
 namespace com {
 namespace u14n {
@@ -13,16 +16,15 @@ namespace model {
 namespace taxonomy {
 
 Regnum::Regnum(std::string newName)
-    : name(newName) {
+        : Root<Phylum>(newName) {
+
+}
+Regnum::~Regnum() {
 
 }
 
-const std::string& Regnum::getName() const {
-    return name;
-}
-
-void Regnum::setName(const std::string& newName) {
-    name.assign(newName);
+const std::vector<std::reference_wrapper<Phylum> >& Regnum::getPhyla() const {
+    return getProngs();
 }
 
 } // namespace taxonomy

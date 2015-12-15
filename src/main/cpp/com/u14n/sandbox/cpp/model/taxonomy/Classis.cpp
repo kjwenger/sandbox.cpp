@@ -4,6 +4,8 @@
  */
 
 #include "com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Phylum.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Ordo.hpp"
 
 namespace com {
 namespace u14n {
@@ -13,21 +15,19 @@ namespace model {
 namespace taxonomy {
 
 Classis::Classis(Phylum& newPhylum, std::string newName)
-        : phylum(newPhylum)
-        , name(newName) {
-
+        : Branch<Phylum, Ordo>(newPhylum, newName) {
+    Pronged<Phylum>::getFork().addProng(*this);
+}
+Classis::~Classis() {
+    Pronged<Phylum>::getFork().removeProng(*this);
 }
 
-const std::string& Classis::getName() const {
-    return name;
+Phylum& Classis::getPhylum() {
+    return getFork();
 }
 
-void Classis::setName(const std::string& newName) {
-    name.assign(newName);
-}
-
-const Phylum& Classis::getPhylum() const {
-    return phylum;
+const std::vector<std::reference_wrapper<Ordo> >& Classis::getOrdines() const {
+    return getProngs();
 }
 
 } // namespace taxonomy

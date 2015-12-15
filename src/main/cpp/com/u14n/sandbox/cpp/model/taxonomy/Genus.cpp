@@ -4,6 +4,8 @@
  */
 
 #include "com/u14n/sandbox/cpp/model/taxonomy/Genus.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Familia.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Species.hpp"
 
 namespace com {
 namespace u14n {
@@ -13,21 +15,19 @@ namespace model {
 namespace taxonomy {
 
 Genus::Genus(Familia& newFamilia, std::string newName)
-        : familia(newFamilia)
-        , name(newName) {
-
+        : Branch<Familia, Species>(newFamilia, newName) {
+    getFork().addProng(*this);
+}
+Genus::~Genus() {
+    getFork().removeProng(*this);
 }
 
-const std::string& Genus::getName() const {
-    return name;
+Familia& Genus::getFamilia() {
+    return getFork();
 }
 
-void Genus::setName(const std::string& newName) {
-    name.assign(newName);
-}
-
-const Familia& Genus::getFamilia() const {
-    return familia;
+const std::vector<std::reference_wrapper<Species> >& Genus::getSpecies() const {
+    return getProngs();
 }
 
 } // namespace taxonomy

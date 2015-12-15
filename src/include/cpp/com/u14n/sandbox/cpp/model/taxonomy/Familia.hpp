@@ -6,7 +6,7 @@
 #pragma once
 
 #include "com/u14n/sandbox/cpp/Constants.hpp"
-#include "com/u14n/sandbox/cpp/model/taxonomy/Ordo.hpp"
+#include "com/u14n/sandbox/cpp/model/Branch.hpp"
 
 #include <string>
 
@@ -17,20 +17,18 @@ namespace cpp {
 namespace model {
 namespace taxonomy {
 
-class Familia {
+class Ordo;
+class Genus;
+
+class Familia : public Branch<Ordo, Genus> {
 public:
     Familia(Ordo& newOrdo,
            std::string newName = Constants::STRING_EMPTY());
+    virtual ~Familia();
 
-    const std::string& getName() const;
+    Ordo& getOrdo();
 
-    void setName(const std::string& newName);
-
-    const Ordo& getOrdo() const;
-
-private:
-    std::string name;
-    Ordo& ordo;
+    const std::vector<std::reference_wrapper<Genus> >& getGenera() const;
 };
 
 } // namespace taxonomy

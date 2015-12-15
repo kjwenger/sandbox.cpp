@@ -8,6 +8,12 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 
 set(HEADER_FILES
         src/include/cpp/com/u14n/sandbox/cpp/Constants.hpp
+        src/include/cpp/com/u14n/sandbox/cpp/model/Named.hpp
+        src/include/cpp/com/u14n/sandbox/cpp/model/Forked.hpp
+        src/include/cpp/com/u14n/sandbox/cpp/model/Pronged.hpp
+        src/include/cpp/com/u14n/sandbox/cpp/model/Root.hpp
+        src/include/cpp/com/u14n/sandbox/cpp/model/Branch.hpp
+        src/include/cpp/com/u14n/sandbox/cpp/model/Leaf.hpp
         src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp
         src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp
         src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.hpp
@@ -26,6 +32,12 @@ set(HEADER_FILES
 
 set(SOURCE_FILES
         src/main/cpp/com/u14n/sandbox/cpp/Constants.cpp
+        src/main/cpp/com/u14n/sandbox/cpp/model/Named.cpp
+        src/main/cpp/com/u14n/sandbox/cpp/model/Forked.cpp
+        src/main/cpp/com/u14n/sandbox/cpp/model/Pronged.cpp
+        src/main/cpp/com/u14n/sandbox/cpp/model/Root.cpp
+        src/main/cpp/com/u14n/sandbox/cpp/model/Branch.cpp
+        src/main/cpp/com/u14n/sandbox/cpp/model/Leaf.cpp
         src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.cpp
         src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.cpp
         src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.cpp

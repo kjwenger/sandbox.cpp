@@ -6,7 +6,8 @@
 #pragma once
 
 #include "com/u14n/sandbox/cpp/Constants.hpp"
-#include "com/u14n/sandbox/cpp/model/Branch.hpp"
+#include "com/u14n/sandbox/cpp/model/Named.hpp"
+#include "com/u14n/sandbox/cpp/model/Pronged.hpp"
 
 #include <string>
 
@@ -15,23 +16,15 @@ namespace u14n {
 namespace sandbox {
 namespace cpp {
 namespace model {
-namespace taxonomy {
 
-class Familia;
-class Species;
-
-class Genus : public Branch<Familia, Species> {
+template <class Parent> class Leaf
+        : public Named, public Pronged<Parent> {
 public:
-    Genus(Familia& newFamilia,
+    Leaf(Parent& newParent,
            std::string newName = Constants::STRING_EMPTY());
-    virtual ~Genus();
-
-    Familia& getFamilia();
-
-    const std::vector<std::reference_wrapper<Species> >& getSpecies() const;
+    virtual ~Leaf();
 };
 
-} // namespace taxonomy
 } // namespace model
 } // namespace cpp
 } // namespace sandbox

@@ -6,7 +6,6 @@
 #pragma once
 
 #include "com/u14n/sandbox/cpp/Constants.hpp"
-#include "com/u14n/sandbox/cpp/model/Root.hpp"
 
 #include <string>
 #include <vector>
@@ -17,19 +16,21 @@ namespace u14n {
 namespace sandbox {
 namespace cpp {
 namespace model {
-namespace taxonomy {
 
-class Phylum;
-
-class Regnum : public Root<Phylum> {
+template <class Pronged> class Forked {
 public:
-    Regnum(std::string newName = Constants::STRING_EMPTY());
-    virtual ~Regnum();
+    Forked();
+    virtual ~Forked();
 
-    const std::vector<std::reference_wrapper<Phylum> >& getPhyla() const;
+    const std::vector<std::reference_wrapper<Pronged> >& getProngs() const;
+
+    void addProng(Pronged& pronged);
+
+    void removeProng(Pronged& pronged);
+private:
+    std::vector<std::reference_wrapper<Pronged> > prongs;
 };
 
-} // namespace taxonomy
 } // namespace model
 } // namespace cpp
 } // namespace sandbox

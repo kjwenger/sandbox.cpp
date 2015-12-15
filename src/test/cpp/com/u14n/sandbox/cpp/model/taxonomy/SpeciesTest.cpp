@@ -4,6 +4,12 @@
  */
 
 #include "com/u14n/sandbox/cpp/Constants.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Regnum.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Phylum.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Ordo.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Familia.hpp"
+#include "com/u14n/sandbox/cpp/model/taxonomy/Genus.hpp"
 #include "com/u14n/sandbox/cpp/model/taxonomy/Species.hpp"
 
 #include <gtest/gtest.h>
@@ -34,6 +40,7 @@ TEST_F(SpeciesTest, shouldCreateSpecies) {
     Genus genus(familia, genusString);
     std::string speciesName("Lupus");
     Species species(genus, "Lupus");
+    EXPECT_EQ(1u, regnum.getPhyla().size());
     EXPECT_EQ(speciesName, species.getName());
     EXPECT_EQ(genusString, genus.getName());
     EXPECT_EQ(genusString, species
