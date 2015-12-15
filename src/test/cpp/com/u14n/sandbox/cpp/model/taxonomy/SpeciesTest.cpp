@@ -39,8 +39,19 @@ TEST_F(SpeciesTest, shouldCreateSpecies) {
     std::string genusString("Canis");
     Genus genus(familia, genusString);
     std::string speciesName("Lupus");
-    Species species(genus, "Lupus");
+    Species species(genus, speciesName);
     EXPECT_EQ(1u, regnum.getPhyla().size());
+    EXPECT_EQ(1u, phylum.getClasses().size());
+    EXPECT_EQ(&regnum, &(phylum.getRegnum()));
+    EXPECT_EQ(1u, classis.getOrdines().size());
+    EXPECT_EQ(&phylum, &(classis.getPhylum()));
+    EXPECT_EQ(1u, ordo.getFamiliae().size());
+    EXPECT_EQ(&classis, &(ordo.getClassis()));
+    EXPECT_EQ(1u, familia.getGenera().size());
+    EXPECT_EQ(&ordo, &(familia.getOrdo()));
+    EXPECT_EQ(1u, genus.getSpecies().size());
+    EXPECT_EQ(&familia, &(genus.getFamilia()));
+    EXPECT_EQ(&genus, &(species.getGenus()));
     EXPECT_EQ(speciesName, species.getName());
     EXPECT_EQ(genusString, genus.getName());
     EXPECT_EQ(genusString, species
