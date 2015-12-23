@@ -1,7 +1,8 @@
 @MKDIR build
 @CHDIR build
-@CMAKE -Dgtest_build_samples=ON -G "MinGW Makefiles" ..
-@MAKE
-@COPY /B libgtest.a ..\..\..\..\lib\test
-@COPY /B libgtest_main.a ..\..\..\..\lib\test
+@REM @CMAKE -Dgtest_build_samples=ON -G "MinGW Makefiles" ..
+@CMAKE -Dgtest_build_samples=ON ..
+@CMAKE --build .
+@COPY /B Debug\gtest.lib ..\..\..\..\lib\test
+@COPY /B Debug\gtest_main.lib ..\..\..\..\lib\test
 @CHDIR ..

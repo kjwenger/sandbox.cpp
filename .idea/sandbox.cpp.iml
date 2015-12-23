@@ -59,41 +59,13 @@
           <root url="file://C:/Development/MinGW/x86_64-w64-mingw32/include" />
           <root url="file://C:/Development/MinGW/lib/gcc/x86_64-w64-mingw32/4.7.2/include-fixed" />
           <root url="file://C:/Development/MinGW/lib/gcc/x86_64-w64-mingw32/4.7.2/include" />
-          <root url="file://$MODULE_DIR$/src/lib/gtest-1.7.0/include" />
-          <root url="file://$MODULE_DIR$/src/include/cpp" />
         </CLASSES>
         <SOURCES>
           <root url="file://C:/Development/MinGW/include/c++/4.7.2" />
           <root url="file://C:/Development/MinGW/x86_64-w64-mingw32/include" />
           <root url="file://C:/Development/MinGW/lib/gcc/x86_64-w64-mingw32/4.7.2/include-fixed" />
           <root url="file://C:/Development/MinGW/lib/gcc/x86_64-w64-mingw32/4.7.2/include" />
-          <root url="file://$MODULE_DIR$/src/lib/gtest-1.7.0/include" />
-          <root url="file://$MODULE_DIR$/src/include/cpp" />
         </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/Constants.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Named.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum/Chordata.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo/Carnivora.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia/Canidae.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus/Canis.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Phylum.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Forked.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Pronged.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Branch.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Root.hpp" />
-          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Leaf.hpp" />
-        </excluded>
       </library>
     </orderEntry>
   </component>

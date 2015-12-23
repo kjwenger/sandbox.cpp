@@ -1,6 +1,7 @@
 @MKDIR build
 @CHDIR build
-@CMAKE -G "MinGW Makefiles" ..
-@MAKE
+@REM @CMAKE -G "MinGW Makefiles" ..
+@CMAKE ..
+@CMAKE --build .
 @tests
 @CHDIR ..

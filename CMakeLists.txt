@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 2.6)
 project(sandbox_cpp)
+
+#ADD_BII_TARGETS()
+
 include_directories(
         src/include/cpp
         src/lib/gtest-1.7.0/include)
@@ -69,6 +72,5 @@ add_executable(tests
         ${SOURCE_FILES}
         ${TEST_FILES})
 target_link_libraries(tests
-        ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/libgtest_main.a
-        ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/libgtest.a
-        ${CMAKE_THREAD_LIBS_INIT})
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/gtest.lib
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/gtest_main.lib)

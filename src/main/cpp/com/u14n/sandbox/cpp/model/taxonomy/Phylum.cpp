@@ -27,7 +27,7 @@ Regnum& Phylum::getRegnum() {
 }
 
 const std::vector<std::reference_wrapper<Classis> >& Phylum::getClasses() const {
-    getProngs();
+    return getProngs();
 }
 
 } // namespace taxonomy
