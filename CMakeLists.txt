@@ -71,6 +71,9 @@ add_executable(tests
         ${HEADER_FILES}
         ${SOURCE_FILES}
         ${TEST_FILES})
-target_link_libraries(tests
-        ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/gtest.lib
-        ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/gtest_main.lib)
+IF(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
+        target_link_libraries(tests
+                ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/libgtest.a
+                ${CMAKE_CURRENT_SOURCE_DIR}/lib/test/libgtest_main.a
+                ${CMAKE_THREAD_LIBS_INIT})
+ENDIF(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
