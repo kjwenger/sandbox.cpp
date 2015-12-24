@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/Root.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/Leaf.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/Pronged.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum/Chordata.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo/Carnivora.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia/Canidae.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus/Canis.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Phylum.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/Root.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/Branch.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/Forked.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/Pronged.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/Named.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/model/Branch.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/cpp/com/u14n/sandbox/cpp/Constants.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/Constants.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Named.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Branch.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum/Chordata.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo/Carnivora.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia/Canidae.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus/Canis.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Phylum.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Leaf.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Root.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Forked.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Pronged.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Branch.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Root.hpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Leaf.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/Constants.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/ontology/TopicTest.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/LupusTest.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/cpp/com/u14n/sandbox/cpp/model/taxonomy/SpeciesTest.cpp" isTestSource="false" />
@@ -55,18 +55,45 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file://C:/Development/MinGW/include/c++/4.7.2" />
-          <root url="file://C:/Development/MinGW/x86_64-w64-mingw32/include" />
-          <root url="file://C:/Development/MinGW/lib/gcc/x86_64-w64-mingw32/4.7.2/include-fixed" />
-          <root url="file://C:/Development/MinGW/lib/gcc/x86_64-w64-mingw32/4.7.2/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$MODULE_DIR$/src/lib/gtest-1.7.0/include" />
+          <root url="file://$MODULE_DIR$/src/include/cpp" />
         </CLASSES>
-        <JAVADOC />
         <SOURCES>
-          <root url="file://C:/Development/MinGW/include/c++/4.7.2" />
-          <root url="file://C:/Development/MinGW/x86_64-w64-mingw32/include" />
-          <root url="file://C:/Development/MinGW/lib/gcc/x86_64-w64-mingw32/4.7.2/include-fixed" />
-          <root url="file://C:/Development/MinGW/lib/gcc/x86_64-w64-mingw32/4.7.2/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$MODULE_DIR$/src/lib/gtest-1.7.0/include" />
+          <root url="file://$MODULE_DIR$/src/include/cpp" />
         </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Named.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Branch.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Classis.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Species.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Ordo.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/phylum/Chordata.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/ordo/Carnivora.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/familia/Canidae.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Regnum.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/regnum/Animalia.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/genus/Canis.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/species/Lupus.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Genus.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Phylum.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/classis/Mammalia.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/taxonomy/Familia.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/ontology/Topic.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Leaf.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Root.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Forked.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/model/Pronged.hpp" />
+          <root url="file://$MODULE_DIR$/src/include/cpp/com/u14n/sandbox/cpp/Constants.hpp" />
+        </excluded>
       </library>
     </orderEntry>
   </component>
