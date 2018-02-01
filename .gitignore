@@ -1,5 +1,3 @@
-/.idea/
-/build/
-/lib/
-/bin/
-/bii/
+/.idea/workspace.xml
+*build*/
+bin/
