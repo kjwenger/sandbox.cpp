@@ -9,3 +9,5 @@ deb-src http://apt.llvm.org/stretch/ llvm-toolchain-stretch-5.0 main" \
 
 sudo apt update
 sudo apt install clang-5.0
+sudo apt install libc++1
+sudo apt install libc++-dev
