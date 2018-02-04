@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-wget -O - http://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
+wget -O - http://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
 
 sudo echo "
 deb http://apt.llvm.org/stretch/ llvm-toolchain-stretch-5.0 main
