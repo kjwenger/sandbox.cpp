@@ -25,6 +25,6 @@ future<int> fibonacci(int n) {
 }
 
 
-TEST(tests, run) {
+TEST(test, run) {
     EXPECT_EQ(1, 1);
 }
