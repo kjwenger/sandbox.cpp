@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
-set (CMAKE_CXX_STANDARD 11)
+set (CMAKE_CXX_STANDARD 17)
 enable_testing()
 find_package(Threads REQUIRED)
 file(GLOB_RECURSE SRC
@@ -8,7 +8,7 @@ file(GLOB_RECURSE SRC
 add_executable(test.range-based_for_loop
         ${SRC}
 )
-set_property(TARGET test.range-based_for_loop PROPERTY CXX_STANDARD 11)
+set_property(TARGET test.range-based_for_loop PROPERTY CXX_STANDARD 17)
 add_dependencies(test.range-based_for_loop googletest)
 ExternalProject_Get_Property(googletest source_dir)
 target_include_directories(test.range-based_for_loop PUBLIC
