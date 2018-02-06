@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
+set(CMAKE_CXX_STANDARD 11)
 enable_testing()
 find_package(Threads REQUIRED)
 file(GLOB_RECURSE SRC
@@ -7,6 +8,7 @@ file(GLOB_RECURSE SRC
 add_executable(test.variable_number_of_arguments
         ${SRC}
 )
+set_property(TARGET test.variable_number_of_arguments PROPERTY CXX_STANDARD 11)
 add_dependencies(test.variable_number_of_arguments googletest)
 ExternalProject_Get_Property(googletest source_dir)
 target_include_directories(test.variable_number_of_arguments PUBLIC

@@ -8,9 +8,9 @@ template<typename T>
 int sumOf(T t) {
     return t;
 }
-template<typename T, typename... Types>
-int sumOf(T t, Types&&... types) {
-    return t + sumOf(types...);
+template<typename T, typename... Ts>
+int sumOf(T t, Ts&&... ts) {
+    return t + sumOf(ts...);
 }
 
 TEST(variable_number_of_arguments, sum_of) {
