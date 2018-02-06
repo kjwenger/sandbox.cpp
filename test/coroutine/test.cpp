@@ -1,7 +1,6 @@
-#include <gtest/gtest.h>
-
 #include <experimental/coroutine>
 #include <future>
+#include <gtest/gtest.h>
 using namespace std;
 
 future<int> async_add(int a, int b) {
@@ -23,7 +22,6 @@ future<int> fibonacci(int n) {
 
     co_return b;
 }
-
 
 TEST(test, run) {
     EXPECT_EQ(1, 1);

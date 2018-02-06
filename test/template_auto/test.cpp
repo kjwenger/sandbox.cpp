@@ -1,6 +1,5 @@
-#include <gtest/gtest.h>
-
 #include <vector>
+#include <gtest/gtest.h>
 using namespace std;
 
 TEST(test, run) {
