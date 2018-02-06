@@ -19,10 +19,10 @@ target_link_libraries(test.template_deduction
         ${CMAKE_PREFIX_PATH}/lib/${CMAKE_STATIC_LIBRARY_PREFIX}gtest${CMAKE_STATIC_LIBRARY_SUFFIX}
         ${CMAKE_PREFIX_PATH}/lib/${CMAKE_STATIC_LIBRARY_PREFIX}gtest_main${CMAKE_STATIC_LIBRARY_SUFFIX}
 )
-add_test(
-        NAME cppcheck.template_deduction
-        COMMAND cppcheck ${SRC}
-)
+#add_test(
+#        NAME cppcheck.template_deduction
+#        COMMAND cppcheck ${SRC}
+#)
 add_test(
         NAME test.template_deduction
         COMMAND test.template_deduction

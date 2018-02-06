@@ -16,10 +16,10 @@ target_link_libraries(test.gtest_find
         ${GTEST_LIBRARIES}
         ${GTEST_MAIN_LIBRARIES}
 )
-add_test(
-        NAME cppcheck.gtest_find
-        COMMAND cppcheck ${SRC}
-)
+#add_test(
+#        NAME cppcheck.gtest_find
+#        COMMAND cppcheck ${SRC}
+#)
 add_test(
         NAME test.gtest_find
         COMMAND test.gtest_find

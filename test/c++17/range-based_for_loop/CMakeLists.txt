@@ -19,10 +19,10 @@ target_link_libraries(test.range-based_for_loop
         ${CMAKE_PREFIX_PATH}/lib/${CMAKE_STATIC_LIBRARY_PREFIX}gtest${CMAKE_STATIC_LIBRARY_SUFFIX}
         ${CMAKE_PREFIX_PATH}/lib/${CMAKE_STATIC_LIBRARY_PREFIX}gtest_main${CMAKE_STATIC_LIBRARY_SUFFIX}
 )
-add_test(
-        NAME cppcheck.range-based_for_loop
-        COMMAND cppcheck ${SRC}
-)
+#add_test(
+#        NAME cppcheck.range-based_for_loop
+#        COMMAND cppcheck ${SRC}
+#)
 add_test(
         NAME test.range-based_for_loop
         COMMAND test.range-based_for_loop

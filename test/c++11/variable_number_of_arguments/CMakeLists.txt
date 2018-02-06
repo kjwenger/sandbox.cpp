@@ -19,10 +19,10 @@ target_link_libraries(test.variable_number_of_arguments
         ${CMAKE_PREFIX_PATH}/lib/${CMAKE_STATIC_LIBRARY_PREFIX}gtest${CMAKE_STATIC_LIBRARY_SUFFIX}
         ${CMAKE_PREFIX_PATH}/lib/${CMAKE_STATIC_LIBRARY_PREFIX}gtest_main${CMAKE_STATIC_LIBRARY_SUFFIX}
 )
-add_test(
-        NAME cppcheck.variable_number_of_arguments
-        COMMAND cppcheck ${SRC}
-)
+#add_test(
+#        NAME cppcheck.variable_number_of_arguments
+#        COMMAND cppcheck ${SRC}
+#)
 add_test(
         NAME test.variable_number_of_arguments
         COMMAND test.variable_number_of_arguments
