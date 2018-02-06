@@ -1,7 +1,5 @@
 #include <gtest/gtest.h>
 
-using namespace std;
-
 TEST(floating_point_literal, pre_dot) {
     auto floating_point_literal = 1'015'301;
     EXPECT_EQ(floating_point_literal, 1015301);
