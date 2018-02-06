@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
+add_subdirectory(gtest_find)
 add_subdirectory(floating_point_literal)
 add_subdirectory(range-based_for_loop)
 #add_subdirectory(template_auto)
