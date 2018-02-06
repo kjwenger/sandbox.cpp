@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
 add_subdirectory(floating_point_literal)
-#add_subdirectory(range-based_fo_loop)
+#add_subdirectory(range-based_for_loop)
 #add_subdirectory(template_auto)
 #add_subdirectory(coroutine)
