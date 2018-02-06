@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
-add_subdirectory(gtest_find)
+#add_subdirectory(gtest_find)
 add_subdirectory(c++11)
 add_subdirectory(c++14)
 add_subdirectory(c++17)
