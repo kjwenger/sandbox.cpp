@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.9)
-set(CMAKE_GENERATOR "MinGW Makefiles" CACHE INTERNAL "" FORCE)
 project(sandbox_cpp VERSION 0.0.1 LANGUAGES CXX)
 include("${CMAKE_SOURCE_DIR}/cmake/Paths.cmake")
 #include(PrintVariables)
